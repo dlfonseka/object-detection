@@ -3,7 +3,7 @@
 
 This is fork of the Tensorflow Object Detection API from the `research/object_detection` subdirectory of the upstream repository [tensorflow/models](https://github.com/tensorflow/models).
 
-To install: `pip install git+https://github.com/autognc/object-detection`
+To install: `pip install https://github.com/autognc/object-detection/tarball/object-detection`
 
 ## Syncing upstream changes
 
