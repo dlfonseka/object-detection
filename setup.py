@@ -19,7 +19,7 @@ REQUIRED_PACKAGES = ['pillow', 'lxml', 'matplotlib', 'Cython', 'contextlib2',
 setup(
     name='object_detection',
     version='0.2',
-    install_requires=REQUIRED_PACKAGES + ['slim @ https://github.com/autognc/object-detection/tarball/slim-v2'],
+    install_requires=REQUIRED_PACKAGES + ['slim @ https://github.com/dlfonseka/object-detection/tarball/slim-v2'],
     packages=['object_detection.' + p for p in find_packages()] + ['object_detection'],
     package_dir={'object_detection': '.'},
     include_package_data=True,
